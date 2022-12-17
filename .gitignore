@@ -1,0 +1,10 @@
+.DS_Store
+DS_Store
+
+.htaccess
+
+composer.lock
+vendor/
+/vendor/
+
+libraries/Config.php

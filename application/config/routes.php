@@ -54,6 +54,9 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 // Instagram Authorize
+$route["load"] = "Authorize/load";
+$route["auth-token"] = "Authorize/auth_load";
+
 $route["authorize"] = "Authorize/auth";
 $route["de-authorize"] = "Authorize/de-auth";
 $route["remove"] = "Authorize/delete";
